@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sketch</title>
+  <script src="./script/main.js" defer></script>
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+  <div class="head">
+    <h1>Etch a Sketch</h1>
+  </div>
+  <div class="input">
+    <input type="number" placeholder="Please input size upto 64" id="size" value="" min="1" max="64">
+    <select id="type">
+      <option value="RGB">RGB</option>
+      <option value="Grayscale">Grayscale</option>
+      <option value="BW">Black and White</option>
+    </select>
+    <button class="btn" onclick="rgb()">Submit</button>
+    <button class="btn" onclick="cleargrid()">Clear</button>
+  </div>
+  <div class="main-container">
+
+  </div>
+</body>
+</html>
