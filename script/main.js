@@ -7,12 +7,15 @@ function rgb(){
   let type = document.getElementById("type");
   let option = type.value;
   if(option=='RGB'){
+    cleargrid();
     RGB(n);
   }
   else if(option=='Grayscale'){
+    cleargrid();
     Grayscale(n);
   }
   else{
+    cleargrid();
     BW(n);
   }
 }
